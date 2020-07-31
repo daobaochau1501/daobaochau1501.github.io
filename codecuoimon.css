@@ -3,8 +3,7 @@
 body{
 	width: 100%;
 	height: 100%;
-	font-family:"Palatino Linotype";
-}
+	font-family: "Gill Sans";}
 .carousel-caption{ 
 	top:15%;
 	font-family:"Palatino Linotype";
@@ -49,4 +48,7 @@ body{
 .footer,text-center{
 	background-color:#1F1F1F;
 	color: #FFFFFF
+}
+.vanban{
+	text-align: left
 }
