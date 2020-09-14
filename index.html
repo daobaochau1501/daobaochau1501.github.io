@@ -2,546 +2,301 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Bài Cuối Môn</title>
-<!--	Font Awsome-->
+<title>Untitled Document</title>
+	<link rel="stylesheet" href="BaiCuoiMon.css">
+	<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Fredericka+the+Great&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	
-<!--	_____________________-->
-	<script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-	<!-- CSS only -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-<!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-		<!--Code Cs-->
-	<link href="codecuoimon.css" rel="stylesheet" type="text/css">
-			<!--	Aos Animation-->
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	
-				<!--	Button Ontop-->
-	<style>
-	#MyBtn{
-			display: none;
-			position:fixed;
-			z-index: 100;
-			right: 30px;
-			bottom: 30px;
-			background-color: #FFFFFF;
-			border: none;
-			font-size: 20px
-		}
-		</style>
+	<link rel="stylesheet" href="slidecss/owl.carousel.min.css">
+	<link rel="stylesheet" href="slidecss/owl.theme.default.min.css">
+	<link rel="stylesheet" href="csswao/animate.css">
+<!--	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">-->
 	
 </head>
-	<body>
-		<!--Navbar-->
-		<button id="MyBtn" title="On Top" onclick="topFunction()">
-			<i class="fa fa-arrow-up" aria-hidden="true"></i>
-		</button>
-	<nav class="navbar navbar-dark navbar-expand-md bg-dark text-uppercase fixed-top" id="TopNavbar">
-		<div class="container">
-			<a class="navbar-brand js-scroll-trigger" href="#TopPage">
-			<img src="filePicure/hollow.png" width="200" alt="logo">
-			</a>
-			<button class="navbar-toggler" 
-					type="button" 
-					data-toggle="collapse"
-					data-target="#navbarResponsive">
-				  <span class="navbar-toggler-icon">
-				  </span>
-	      </button>
-		<div class="collapse navbar-collapse" id="navbarResponsive">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item mx-0 mx-lg-1">
-				<a class="nav-link" href="#StoryGame">Story Game</a>
-				</li>
-				<li class="nav-item mx-0 mx-lg-1">
-				<a class="nav-link" href="#Informations">Informations</a>
-				</li>
-				<li class="nav-item mx-0 mx-lg-1">
-				<a class="nav-link" href="#Contact">Contact</a>
-				</li>
-				<li class="nav-item mx-0 mx-lg-1">
-				<a class="nav-link" href="#About">About </a>
-				</li>
-			</ul>
-		</div>
-		</div>
-	</nav>
-				<!--Body-->
-	<div class="container-fluid">
+
+<body>
+			<!--MENU Layout-->
+<div class="client">
 	
-	<div id="Slide" class="carousel slide " data-ride="carousel">
-<!--		Indicator-->
-		<ul class="carousel-indicators">
-			<li data-target="#Slide" data-slide-to="0" class="active"></li>
-			<li data-target="#Slide" data-slide-to="1"></li>
-			<li data-target="#Slide" data-slide-to="2"></li>
-			<li data-target="#Slide" data-slide-to="3"></li>
-		</ul>
 	
-<!--			chạy  Slide										   -->
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="filePicure/hollowKing.jpg" style=" width:100%;" alt="Hollow0" >
-				  <div class="carousel-caption">
-					  <img src="filePicure/icon.png" style="text-align: center;width: 35%">
-					<h2 class="display-2"> Choose Your Destiny</h2>
-					  <a href="https://store.steampowered.com/app/367520/Hollow_Knight/">
-						 <button type="button" class="btn btn-dark btn-lg">Play Now</button>
-					  </a>
-				  </div>
+		<header class="header">
+			<div class="container">
+				<div class="logo">
+					<a href="BaiCuoiMonHTML.html" ><img src="Final/deemo_logo.png"></a>
+				</div>
+				<div class="menu">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#GLL">Gallery</a></li>
+						<li><a href="#STR">Story</a></li>
+						<li><a href="#MS">Music</a></li>
+						<li><a href="#RY">RayarkPass</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+				<!--MusicBackground-->
+		<div class="music">
+<!--
+				<audio width="150px" height="25"  autoplay="autoplay" src="Final/WingsOfPiano-V.K-2991349_hq.mp3" controls="controls">
+				</audio >
+-->
+		</div>
+			<!--Content Body Layout-->
+		<div class="content">
+			<div class="banner">
+				<div class="banner-img" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="2s" >
+					<img src="Final/56.png">
+				</div>
+				<div class="banner-text">
+					<h2 class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.5s"> DEEMO </h2>
+				  	<h1 class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.8s">-Reborn-</h1>
+					<p class="wow fadeIn" data-wow-duration="2s" data-wow-delay="2.5s" >"Each song is a part of the story"
+					<br>"The answer to all the questions, shall be reborn through the sound of the piano..."
+						<div class="home">
+						<a href="https://deemo.com/">
+							<i class="fa fa-home" aria-hidden="true"></i>
+						</a>
+							<a href="https://youtu.be/fAwP-IBxrgU"> 
+						<i  class="fa fa-play-circle-o" aria-hidden="true"></i>
+							</a>
+						</div>
+					</p>
+
+
+				</div>
+			</div>
+						<!--	Gallery		-->
+			<div class="gallery" id="GLL">
+				<div class="deemo">
+					<div class="gallery-img" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="2s">
+						<img src= "Final/pngwave (1).png">
+					</div>
+					<div class="gallery-text">
+						<h1 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.8s">Gallery</h1>
+						<h2 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.8s">"Never left without say goodbye.."</h2>
+					</div>
+			<!--		Slide Show-->
+
+					<div class="anhslide">
+						<div class="sliderShow">
+							<div class="owl-carousel" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="2s">
+								  <div class="anhnen"> <img src="Final/3001068.jpg"> </div>
+								  <div class="anhnen"> <img src="Final/1504678429_deemo_by_sishenfan-d8tni3d.jpg" ></div>
+								  <div class="anhnen"> <img src="Final/thumb-1920-602142.jpg"> </div>
+								  <div class="anhnen"> <img src="Final/wp3597867.jpg"> </div>
+								  <div class="anhnen"> <img src="Final/deemo-wings-artistic-anime-girl-wallpaper-preview.jpg"> </div>
+							</div>
+							</div>
+							</div>	
+
+				</div>
+				</div>
+												<!------------------------->
+			
+									<!--Story-->
+					<div class="story" id="STR">
+						<div class="khoangtrong">
+						<div class="story-img" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="2s">
+							<img src="Final/pngwave.png">
+						</div>
+							<div class="tieude">
+							<h2 class="wow flipInX" data-wow-duration="2s" data-wow-delay="0.8s" >- Story Of Deemo -</h2>
+								<h1 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.8s">"..The Story Through The Song.."</h1>
+							</div>
+						<div class="story-text">
+							<div class="frame"  data-aos="fade-left" data-aos-duration="1500" data-aos-delay="2s">
+							<img src="Final/frame.png">
+								<div class="story-vanban">
+									<div class="owl-carousel">
+										  <div class="vanban2">
+											<p>
+												“Deemo is a mystic character that lives in solitude, a castle, all by itself. A little girl falls from the sky, not knowing who she is, or where she comes from. To help the little girl return back to her world, Deemo comes to realize a tree keeps growing tall on top of the piano whenever it plays. What would Deemo do when it gets comfortable with the companionship it never had before? What if the little girl could not deal with the truth when her seemingly lost memories are regained?”
+											  </p>
+											</div>
+										  <div class="vanban2"> <img src="Final/1504678429_deemo_by_sishenfan-d8tni3d.jpg" ></div>
+												<div class="vanban2"> 
+											<p>
+												“Just what can we call this agony? The sky grew in distance, rejecting me gently. Your childish fingers picked up those lost fragments. Our coinciding hearts gave birth to a world that brought tears to my eyes. My fleeting feelings, gently accumulating, will always be searching for you in that endless, faraway world. “Don’t leave me,” you said, but I’m sure the one that can’t stand being alone is me. All I can do for you is to continue playing these songs here. So it’s time for you to head back, let go of my hand now, while you still can. I saw you smiling in those glittering memories, From the twisted prayer within these songs, I learned of the end of this dream. Someday these feelings of mine will flutter down onto your hands. And if you touch them, they will melt from the tenderness of your life.”
+											</p>
+													</div>
+										  <div class="vanban2"> <img src="Final/thumb-1920-602142.jpg"> </div>
+										  <div class="vanban2"> <img src="Final/wp3597867.jpg"> </div>
+										  <div class="vanban2"> <img src="Final/deemo-wings-artistic-anime-girl-wallpaper-preview.jpg"> </div>
+										</div>
+								</div>
+							</div>
+							
+						</div>
+							</div>
+					</div>
+								<!--Music-->
+			<div class="music" id="MS">
+				<div class="musicpage">
+					<div class="anhmusic" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="2s">
+						<img src="Final/258.png">
+					</div>
+					<div class="dvd">
+						<div class="dianhac">
+							<div class="lodianhac">
+							</div>
+					</div>
+					</div>
+					<div class="music-text">
+						<h1 class="wow fadeInLeft" data-wow-duration="1.75s" data-wow-delay="0.8s">MUSIC</h1>
+					</div>
+					<div class="boxmusic">
+							<div class="box1" data-aos="fade-right"
+     										  data-aos-offset="300"
+     										  data-aos-easing="ease-in-sine">
+								
+								<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/123230773&color=%230d0d0d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/fairyce" title="fairyice" target="_blank" style="color: #cccccc; text-decoration: none;">fairyice</a> · <a href="https://soundcloud.com/fairyce/deemo-dream" title="Deemo - Dream" target="_blank" style="color: #cccccc; text-decoration: none;">Deemo - Dream</a></div>
+								
+							</div>
+							<div class="box2" data-aos="fade-right"
+     										  data-aos-offset="300"
+     										  data-aos-easing="ease-in-sine">
+									
+								<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/156055203&color=%230d0d0d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/marco-daddino-realmonte" title="Marco Realmonte" target="_blank" style="color: #cccccc; text-decoration: none;">Marco Realmonte</a> · <a href="https://soundcloud.com/marco-daddino-realmonte/deemo-vk-reflection-mirror-night" title="【Deemo】 V.K - Reflection (mirror night)" target="_blank" style="color: #cccccc; text-decoration: none;">【Deemo】 V.K - Reflection (mirror night)</a></div>
+								
+							</div>
+							<div class="box3" data-aos="fade-right"
+     										  data-aos-offset="300"
+     										  data-aos-easing="ease-in-sine">
+						
+								<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/213654478&color=%230d0d0d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kyuusamune" title="Kyuusamune" target="_blank" style="color: #cccccc; text-decoration: none;">Kyuusamune</a> · <a href="https://soundcloud.com/kyuusamune/deemo-fluquor" title="Deemo - Fluquor" target="_blank" style="color: #cccccc; text-decoration: none;">Deemo - Fluquor</a></div>
+								
+							</div>
+					</div>
+					<div class="boxmusic2">
+						<div class="dvd1">
+							<div class="dianhac1">
+								<div class="lodianhac1">
+								</div>
+							</div>
+						</div>
+						<div class="music-text2">
+						<h1 class="wow fadeInRight" data-wow-duration="1.75s" data-wow-delay="0.8s">GALLERY</h1>
+						</div>
+						
+						<div class="box4" data-aos="fade-left"
+     										  data-aos-offset="300"
+     										  data-aos-easing="ease-in-sine">
+						
+							<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/140130361&color=%230d0d0d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lyssaxxxheart" title="LyssaxxxHeart" target="_blank" style="color: #cccccc; text-decoration: none;">LyssaxxxHeart</a> · <a href="https://soundcloud.com/lyssaxxxheart/deemo-sakura-iro-no-yume" title="[Deemo] Sakura Iro No Yume" target="_blank" style="color: #cccccc; text-decoration: none;">[Deemo] Sakura Iro No Yume</a></div>
+							
+						</div>
+						<div class="box5"  data-aos="fade-left"
+     										  data-aos-offset="300"
+     										  data-aos-easing="ease-in-sine">
+						
+						<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/132293442&color=%230d0d0d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/ris-dominic" title="Ris Dominic" target="_blank" style="color: #cccccc; text-decoration: none;">Ris Dominic</a> · <a href="https://soundcloud.com/ris-dominic/deemo-saika" title="Deemo - Saika" target="_blank" style="color: #cccccc; text-decoration: none;">Deemo - Saika</a></div>
+						</div>
+						<div class="box6" data-aos="fade-left"
+     										  data-aos-offset="300"
+     										  data-aos-easing="ease-in-sine">
+						
+							<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155745235&color=%230d0d0d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/dzulfiqar-irmand" title="Dzulfiqar Irmand" target="_blank" style="color: #cccccc; text-decoration: none;">Dzulfiqar Irmand</a> · <a href="https://soundcloud.com/dzulfiqar-irmand/evolution-era-full-v-k-deemo" title="Evolution Era (Full)-V.K (Deemo collection 1)" target="_blank" style="color: #cccccc; text-decoration: none;">Evolution Era (Full)-V.K (Deemo collection 1)</a></div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="RayarkPass" id="RY">
+				<div class="rayarkaniver" data-aos="zoom-out-right"
+					 					data-aos-easing="linear"
+     									data-aos-duration="1500">
+					<img src="Final/FAVPNG_deemo-voez-rayark-inc-song-game_zyAmxVfZ.png">
+				</div>
+					<div class="welcome" data-aos="fade-down"
+     									data-aos-easing="linear"
+     									data-aos-duration="1500">
+						<img src="Final/backgrounddddd.png">
+					</div>
+						<div class="rayarkpass" data-aos="flip-left"
+     											data-aos-easing="ease-out-cubic"
+     											data-aos-duration="2000">
+							<img src="Final/rayark.png">
+						</div>
+							<div class="text">
+								<h1 class="wow fadeInUp" data-wow-duration="1.75s" data-wow-delay="0.8s">RayarkPass is now on!</h1>
+							</div>
+				<div class="button" data-aos="fade-up"
+     								data-aos-anchor-placement="bottom-bottom"
+					 				data-aos-duration="2000">
+					<a href="https://www.rayark-pass.net/"><p>Register Now !</p></a>
+				</div>
+				<div class="text-decoration">
+					<h1 class="wow fadeInDown" data-wow-duration="1.75s" data-wow-delay="0.8s"> Start Your Journey !</h1>
+				</div>
 			</div>
 			
-	        <div class="carousel-item">
-				<img src="filePicure/Hollow2.jpg" style=" width:100%" alt="Hollow1" >
+			<div class="footer">
+				<div class="inc">
+					<div class="anhinc" data-aos="flip-left"
+     									data-aos-easing="ease-out-cubic"
+     									data-aos-duration="2000">
+						<img src="Final/inc.png">
+					</div>
+					</div>
+					<div class="contact" >
+						<h1 class="wow fadeInUp" data-wow-duration="1.75s" data-wow-delay="0.8s">Contact to us</h1>
+							<a href="https://www.rayark.com/en/support/" 
+							   class="wow fadeInUp" data-wow-duration="1.75s" data-wow-delay="0.8s">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</a>
+							<a href="https://www.facebook.com/rayark.inc"
+							   class="wow fadeInUp" data-wow-duration="1.75s" data-wow-delay="0.8s">
+								<i class="fa fa-facebook-square" aria-hidden="true"></i>
+							</a>
+							<a href="https://www.youtube.com/RayarkInc"
+							   class="wow fadeInUp" data-wow-duration="1.75s" data-wow-delay="0.8s">
+								<i class="fa fa-youtube-play" aria-hidden="true"></i>
+							</a>
+					</div>
+				<div class="ourgame" >
+					<h1 class="wow fadeInLeft" data-wow-duration="1.75s" data-wow-delay="0.8s">See Also...</h1>
+					<p class="wow fadeInRight" data-wow-duration="1.75s" data-wow-delay="0.8s">Terms of use & Privacy policy</p>
+				</div>
+				</div>
 			</div>
-			
-			<div class="carousel-item">
-				<img src="filePicure/hollowkignt.jpg" style=" width:100%;" alt="Hollow2" >
-			</div>
-		
-			<div class="carousel-item">
-				<img src="filePicure/maxresdefault.jpg" style=" width:100%;" alt="Hollow3" >
-			</div>
-		</div>
 	</div>
-</div>
-								<!--Story Game-->
-	<section class="page-selection Story" id="StoryGame">
-		<div class="container-fluid" data-aos="flip-left">
-			<div class="row">
-				<div class="jumbotron">
-			<h1 class="page-section-heading text-center text-uppercase text-secondary mb-1">Story Game</h1>
-				<div class="divider-custom divider-light text-center">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-		<div class="row">
-			<div class="col-6">
-			<p class="vanban">
-				<h1> Hollownest</h1>
-				The story of the Kingdom of Hallownest can be pieced together through dialogue, cutscenes, lore tablets, visual storytelling, and entries in the Hunter's Journal. While there are some ambiguous elements, in general, the information derived from these sources can provide a stable foundation for assembling the overall narrative. As long as all sources have been exhausted and taken into account, a player should, in their own right, have a general understanding of any lore topic.
-			<br>
-				Long before the Kingdom of Hallownest was founded, an ancient civilisation existed in its place. Instead of worshipping any power or lord, this civilisation worshipped the Void, a substance which is found at the bottom of the Abyss. Due to unknown causes, the ancient civilisation eventually disappeared.
-			<br>
-				The ancient enemy of the Void was the Radiance, a higher being who is a light brighter than Essence and who has some power over the Dream Realm. She created the moth tribe who in turn worshipped her. Several other tribes existed as well, such as the Mosskin, the Mantis Tribe, and the spider tribe.
-				</p>
-				
-				<div class="col-5">
-					<a href="https://hollowknight.fandom.com/wiki/Category:Lore">
-					<button button type="button" class="btn btn-dark"> Get The Story</button>
-					</a>
-					<br>
-			 
-				</div>
-			</div>
-				<div class="col-6">
-					<img src="filePicure/hollowKing.jpg" style="float:right; width:100%" alt="anhnen">
-				</div>
-	 	</div>
-		<div class="container-fluid" data-aos="flip-right">
-			<div class="row">
-					<!--Dream Real-->
-				<br>
-		<div class="row">
-			<div class="col-6">
-			<p class="vanban1">
-				<h1> Dream Realm</h1>
-			The dream realm is the space between body and soul. It contains the eternal dreams and memories of bugs. Sometime in the past, the nightmare realm was split from the main dream realm.<br>
-
-	Essence are the fragments of light that dreams are made of.The Radiance, a higher being who is brighter than Essence, likely holds the most power over the dream realm. Her descendants, the moth tribe, have the power to shape dreams. They possess the Dream Nail as well, which can cut through the veil that separates the waking world from the dream realm.<br>
-
-	Dreams can take root as Whispering Roots, but they can also take the shape of those who have passed away, such as Ghosts. Furthermore, dreams can form based on memories. There are several dreams that The Knight can access in the dream realm.<br>
-
-	Another type of Essence, Nightmare Essence, or "flame", is unique to the Nightmare Realm and their Troupe. This type of Essence manifests itself into flames which are gathered for the ritual.<br>
-				</p>
-				
-				<div class="col-5">
-					<a href="https://hollowknight.fandom.com/wiki/Dream_Realm">
-					<button button type="button" class="btn btn-dark"> Get The Story</button>
-					</a>
-			 
-				</div>
-			</div>
-				<div class="col-6">
-					<img src="filePicure/dream.png" style="float: right; width:100%" alt="anhnen">
-				</div>
-	 	</div>
-			</div>
-		</div>
-		</div>
-		</div>
-		</div>
-
-</section>
 	
 	
-							<!--	Imformations-->
+					<!--	Animated	-->
 	
-	<section class="page-section informations" id="Informations">
-		<div class="container-fluid">
-	      <div class="row text-center">
-			<div class="col-12">
-			   <h1 class="display-3">INFORMATIONS</h1>
-		    </div>
-		
-			  
-				<!--Icon-->
-			  <div class="container-fluid bg-dark">
-				  <div class="row">
 	
-			  <div class="col-4" data-aos="zoom-in">
-								<!--The Pale King-->
-				  <button type="button" class="btn btn btn-dark btn-lg" data-toggle="modal" data-target="#myModal">
-					<img src="filePicure/Pale-King.png" width="100">
-					  <h4>The Pale King</h4>
-				  </button>
-
-				  <!-- The Modal -->
-				  <div class="modal fade" id="myModal">
-					<div class="modal-dialog">
-					  <div class="modal-content">
-
-						<!-- Modal Header -->
-						<div class="modal-header">
-						  <h4 class="modal-title text-center">The Pale King</h4>
-						  <button type="button" class="close" data-dismiss="modal">×</button>
-						</div>
-
-						<!-- Modal body -->
-						<div class="modal-body">
-							<div class="container text-center">
-							<img src="filePicure/Pale-King.png" width="100">
-								</div>
-							<p class="vanban">
-						 The Pale King is a higher being who used to be the monarch of Hallownest, mate to the White Lady, and ruler of the White Palace. Egg in the cast-off shell of the Pale King<br>
-
-				He is an ancient Wyrm who burrowed through mountains and across the wasteland until finally stopping in Kingdom's Edge. Once there, the Wyrm shed its shell and transformed into the Pale King. The pale, broken egg found within the Cast-Off Shell hints at this rebirth. Consequently, the Pale King is often still referred to as "Wyrm", as this was his former body. He reduced his form in order to match the bugs of Hallownest.
-							</p>
-						</div>
-
-						<!-- Modal footer -->
-						<div class="modal-footer">
-						  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-						</div>
-
-					  </div>
-					</div>
-				  </div>
-								<!-- ________-->
-				  
-									<!-- The Knight-->
-				  </div>
-			<div class="col-4" data-aos="zoom-in">
-				   <!-- Open the Modal -->
-					  <button type="button" class="btn btn btn-dark btn-lg" data-toggle="modal" data-target="#myModal1">
-						<img src="filePicure/The_Knight_Front.png" width="100">
-						  <h4> The Knight</h4>
-					  </button>
-
-					  <!-- The Modal -->
-					  <div class="modal fade" id="myModal1">
-						<div class="modal-dialog">
-						  <div class="modal-content">
-
-							<!-- Modal Header -->
-							<div class="modal-header">
-							  <h4 class="modal-title text-center">The Knight</h4>
-							  <button type="button" class="close" data-dismiss="modal">×</button>
-							</div>
-
-							<!-- Modal body -->
-							<div class="modal-body">
-								<div class="container text-center">
-								<img src="filePicure/The_Knight_Front.png" width="100">
-									</div>
-								<p class="vanban">
-							The Knight is a discarded Vessel. They are the child of the Pale King and the White Lady, born in the Abyss with Void inside their shell. Hornet is the Knight's sister through their shared father.Like the rest of their Vessel siblings, the Knight is genderless.<br>
-
-							After climbing out of their birthplace in the Abyss, the Knight witnessed their sibling the Hollow Knight being taken out of the Abyss by the Pale King. The entrance to the Abyss was sealed, causing the Knight to fall back down. Sometime after this, despite the entrance being sealed, the Knight and some of their siblings managed to escape the Abyss.
-								</p>
-							</div>
-
-							<!-- Modal footer -->
-							<div class="modal-footer">
-							  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-							</div>
-
-						  </div>
-						</div>
-					  </div>
-			</div>
-					  	<!--------------------->
-			  <div class="col-4" data-aos="zoom-in">
-				    					<!-- The Void Entyti-->
-				  <button type="button" class="btn btn btn-dark btn-lg" data-toggle="modal" data-target="#myModal2">
-					<img src="filePicure/Lord_of_Shades.png" width="150">
-					  <h4> The Void Entity</h4>
-				  </button>
-
-				  <!-- The Modal -->
-				  <div class="modal fade" id="myModal2">
-					<div class="modal-dialog">
-					  <div class="modal-content">
-
-						<!-- Modal Header -->
-						<div class="modal-header">
-						  <h4 class="modal-title text-center">The Void Entyti</h4>
-						  <button type="button" class="close" data-dismiss="modal">×</button>
-						</div>
-
-						<!-- Modal body -->
-						<div class="modal-body">
-							<div class="container text-center">
-							<img src="filePicure/Lord_of_Shades.png" width="150">
-								</div>
-							<p class="vanban">
-						Proposed to be the "Lord of Shades", this form of the Void Entity resembles both the Knight and the Shade of the Knight. The being’s form is similar to a shade but has tendrils sprouting off the back and a still-formed body rather than just a cloak.
-
-						This is the form that the Knight takes during the Dream No More ending. This ending can only be accessed after obtaining the Void Heart. Before getting this charm, the creature where the Shade Cloak is acquired has Dream Nail dialogue that presumably relates to this Void entity. It can be accessed only with the Awoken Dream Nail and states:<br>
-
-						"...Void... Power... Without unity..."<br>
-
-						This dialogue will change when Void Heart is acquired, after which it states:<br>
-
-						"...Lord of Shades..."<br>
-
-						It is suggested by both this dialogue and the description of Void Heart that after the Knight gets Void Heart, the Void is united by a Lord of Shades, which is presumably the Knight.<br>
-
-						A statue of this entity is seen in the Hall of Gods after defeating all bosses on ascended difficulty.
-							</p>
-						</div>
-
-						<!-- Modal footer -->
-						<div class="modal-footer">
-						  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-						</div>
-
-					  </div>
-					</div>
-				  </div>
-							  </div>
-								<!--__________-->
-					  
-						<!--Hornet-->
-	<div class="col-4" data-aos="zoom-in">
-				  <!-- Open the Modal -->
-				  <button type="button" class="btn btn btn-dark btn-lg" data-toggle="modal" data-target="#myModal4">
-					<img src="filePicure/Hornet.png" width="150">
-					  <h4> Hornet</h4>
-				  </button>
-
-				  <!-- The Modal -->
-				  <div class="modal fade" id="myModal4">
-					<div class="modal-dialog">
-					  <div class="modal-content">
-
-						<!-- Modal Header -->
-						<div class="modal-header">
-						  <h4 class="modal-title text-center">Hornet</h4>
-						  <button type="button" class="close" data-dismiss="modal">×</button>
-						</div>
-
-						<!-- Modal body -->
-						<div class="modal-body">
-							<div class="container text-center">
-							<img src="filePicure/Hornet.png" width="150">
-							</div>
-							<p class="vanban">
-						 
-					Hornet is the mysterious princess-protector of Hallownest’s ruins, a major character in Hollow Knight and the playable protagonist of Hollow Knight: Silksong. She wields a needle and thread with deadly prowess.<br>
-
-					Hornet is captured by outsider bugs and brought to their kingdom, Pharloom, but she escapes her cage before arriving at their destination. She then must battle foes and solve mysteries to ascend on a deadly pilgrimage to this kingdom's peak.
-							</p>
-						</div>
-
-						<!-- Modal footer -->
-						<div class="modal-footer">
-						  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-						</div>
-
-					  </div>
-					</div>
-				  </div>
-		</div>
-											<!-- _____________-->
-						<!--The Dreamer Group-->
-	<div class="col-4" data-aos="zoom-in">
-								<!-- Open the Modal -->
-			  <button type="button" class="btn btn btn-dark btn-lg" data-toggle="modal" data-target="#myModal5">
-				<img src="filePicure/Dreamers_group.png" width="150">
-				  <h4>The Dreamer Group</h4>
-			  </button>
-
-			  <!-- The Modal -->
-			  <div class="modal fade" id="myModal5" >
-				<div class="modal-dialog">
-				  <div class="modal-content">
-
-					<!-- Modal Header -->
-					<div class="modal-header">
-					  <h4 class="modal-title text-center">The Dreamer Group</h4>
-					  <button type="button" class="close" data-dismiss="modal">×</button>
-					</div>
-
-					<!-- Modal body -->
-					<div class="modal-body">
-						<div class="container text-center">
-						<img src="filePicure/Dreamers_group.png" width="150">
-							</div>
-						<p class="vanban">
-					The Dreamers are three beings who volunteered to be put into an eternal sleep in order to use their power to seal away the Hollow Knight.The ones who became the Dreamers are Monomon the Teacher, Lurien the Watcher, and Herrah the Beast. Their Seals are present on the exterior of the Black Egg located in the Temple of the Black Egg.<br>
-
-					The Knight encounters two projections of the Dreamers. The first time is in Greenpath after picking up the Mothwing Cloak. The second time is in the Resting Grounds after inspecting the Dreamers memorial. Both times the Dreamers tell the Knight to stop trying to break their Seals. In the Resting Grounds, the Dreamers attempt to prevent the Knight from finding their resting bodies by trapping the Knight in the Dream Realm.<br>
-
-					After finding a Dreamer's physical body, using the Dream Nail on their body will send the Knight into a Dream that contains a vulnerable form of that Dreamer. Killing this form and absorbing it using Focus will break their respective seal.
-						</p>
-					</div>
-
-					<!-- Modal footer -->
-					<div class="modal-footer">
-					  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-					</div>
-
-				  </div>
-				</div>
-			  </div>
-	</div>
-							<!--___________________-->
-					<!-- Grimm Idle-->
-			  <div class="col-4" data-aos="zoom-in">
-				    <!-- Open the Modal -->
-		  <button type="button" class="btn btn btn-dark btn-lg" data-toggle="modal" data-target="#myModal6">
-			<img src="filePicure/Grimm_Idle.png" width="100">
-			  <h4> The Grimm Idle</h4>
-		  </button>
-
-		  <!-- The Modal -->
-		  <div class="modal fade" id="myModal6">
-			<div class="modal-dialog">
-			  <div class="modal-content">
-
-				<!-- Modal Header -->
-				<div class="modal-header">
-				  <h4 class="modal-title text-center">The Grimm Idle</h4>
-				  <button type="button" class="close" data-dismiss="modal">×</button>
-				</div>
-
-				<!-- Modal body -->
-				<div class="modal-body">
-					<div class="container">
-					<img src="filePicure/Grimm_Idle.png" width="100">
-						</div>
-					<p class="vanban">
-			Grimm is the master of the Grimm Troupe, a mysterious travelling circus. In truth, Grimm and his Troupe travel from the Nightmare realm to wherever the Nightmare Lantern has been lit by acolytes. They gather Nightmare Flames from ruined lands to fuel the sinister being enslaving the Troupe,the Nightmare's Heart.<br>
-
-			Their ritual to feed the Nightmare's Heart consists of feeding first a Grimmchild with Nightmare Flames. They then slay the Nightmare King for it to be reborn anew through the Grimmchild.
-						</p>
-				</div>
-
-				<!-- Modal footer -->
-				<div class="modal-footer">
-				  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-				</div>
-
-			  </div>
-			</div>
-		  </div>
-					  </div>
-				</div>
-				</div>
-					  </div>
-	</div>
-	</section>
-				 
-						<!--	    Contact-->
-	<br>
-	<selection  class="page-section contact" id="Contact">
-		<div class="container-fluid">
-			<div class="text-center">
-				<br>
-					<div class="input-group">
-				<form class="form-signin">
-					<h1 class="h3 mb-3 font-weight-bolder">Contact</h1>
-					<label for="inputGmail" class="sr-only">Gmail Address</label>
-						<input type="Gmail" id="inputGmail" class="form-control" placeholder="Gmail address" required>
-					<lable for="inputPass" class="sr-only" >Passwords</lable>
-					  <input type="password" id="inputPass" class="form-control" placeholder="Password" required>
-			<div class="checkbox mb-3">
-						<label>
-							<input type="checkbox" value="remember_me">  Remember me
-						</label>
-			</div>
-					<button type="signin" class="btn btn-dark btn-lg btn-block" >Sign In</button>
-						<p class="icon"><small>&copy; 2019-2020</small></p>
-			</form>
-		</div>
-					</div>
-		</div>
-		</selection>
 	
-	  					<!-- Footer-->
-	<selection  class="page-section About" id="About">
-<footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-				
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                            7 Nguyen Thi Soc
-                            <br />
-                          Ap Bac Lan, Ba Diem
-                        </p>
-                    </div>
-<!--                    <-- Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social " href="#"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social " href="#"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social " href="#"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                    </div>
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">Enjoy The game</h4>
-                        <p class="lead mb-0">
-                         Let's play the game and <br>have a nice day 
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-	</selection>
-<!--		Java Scrip-->
-		<script>
-					//Get the button
-			var mybutton = document.getElementById("MyBtn");
-
-			// When the user scrolls down 20px from the top of the document, show the button
-			window.onscroll = function() {scrollFunction()};
-
-			function scrollFunction() {
-			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-				mybutton.style.display = "block";
-			  } else {
-				mybutton.style.display = "none";
-			  }
-			}
-
-			// When the user clicks on the button, scroll to the top of the document
-			function topFunction() {
-			  document.body.scrollTop = 0;
-			  document.documentElement.scrollTop = 0;
-			}
-		</script>
-<!--	Aos Animation-->
+				<!--JAvaSCript-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script >
+		var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:1,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:4000,
+    autoplayHoverPause:false
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
+	</script>
+						<!--	WoW-->
+				<script src="jsWao/wow.js">
+				</script>
+              <script>
+              new WOW().init();
+              </script>
+<!--	AOS-->
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>
-  AOS.init();
+//  AOS.ini	t();
 </script>
-</body>
+	</body>
 </html>
